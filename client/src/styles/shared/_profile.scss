@@ -1,0 +1,178 @@
+.webcam-container {
+  width: 100%;
+}
+
+.sike {
+  height: 50vh;
+}
+
+.take-image-button-container {
+  align-content: center;
+  margin-top: 20px;
+}
+
+.take-image-button {
+  background-color: transparent;
+  border: none;
+}
+
+.redo-image-button {
+  padding-right: 20px;
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+
+.save-image-button {
+  padding-left: 20px;
+  color: green;
+  background-color: transparent;
+  border: none;
+}
+
+.edit-image-name-container {
+  margin-top: 25px;
+  display: block;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hello {
+  border: 1px solid green;
+}
+
+.edit-image-name-container,
+label,
+input {
+  display: block;
+}
+
+.custom-image-title-input {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.save-image-input {
+  margin-top: 10px;
+  color: white;
+  background-color: green;
+}
+
+.picture-galary-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  border: 2px solid black;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.image-filter-component {
+  text-align: center;
+  // border: 2px solid black;
+  height: 20vh;
+  width: 100%;
+}
+
+.user-images-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.user-images-container,
+img {
+  width: 100%;
+}
+
+.delete-image-button {
+  align-content: middle;
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+
+.edit-information-container {
+  height: 80vh;
+}
+
+.username-edit {
+  margin-top: 10%;
+  margin-bottom: 20px;
+  height: 20%;
+}
+
+.email-edit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 20%;
+}
+.password-edit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 20%;
+}
+
+.password-edit-confirm {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  height: 10%;
+}
+
+.chage-details-button {
+  background-color: #02d106;
+  text-decoration: none;
+  animation: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  height: 50px;
+  width: 300px;
+}
+
+.change-details-button > button:active {
+  outline: 0 !important;
+  // border: none;
+}
+
+.change-details-button > button:disabled {
+  opacity: 0.7;
+  // border: none;
+}
+
+.account-setting-container {
+  margin-top: 30%;
+}
+
+.modal-buttons {
+  margin-top: 5vh;
+}
+
+.modal-buttons > button {
+  background-color: white;
+  color: black;
+  margin: 50px 50px 50px 50px;
+  width: 200px;
+}
+
+.align-modal-content-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email-notification-toggle {
+  margin-bottom: 50px;
+}
+
+.upload-image-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sike {
+  background-color: red !important;
+}

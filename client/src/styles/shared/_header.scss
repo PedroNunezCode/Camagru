@@ -1,0 +1,21 @@
+.responsive-header {
+    display: flex;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.responsive-header {
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+.camagru_logo_letters{
+    margin-top: 50px;
+    font-family: 'Dancing Script, cursive';
+    color: black;
+    font-size: 40px;
+}

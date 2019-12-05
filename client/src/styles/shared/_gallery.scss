@@ -1,0 +1,78 @@
+.gallery-container {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.gallery-item-container {
+  height: 1000px;
+  width: 800px;
+  //   border: 2px solid black;
+}
+
+.likes-and-comments-container {
+  height: 5%;
+  width: 100%;
+}
+
+.gallery-item-container > img {
+  height: 70%;
+}
+
+.like-picture-span {
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.comment-picture-span {
+  margin-top: 2%;
+  margin-right: 2%;
+  float: right;
+}
+
+.comment-section-container {
+  height: 25%;
+}
+
+.comment-items {
+  height: 100%;
+  overflow-y: scroll;
+  text-align: left;
+  display: block;
+}
+
+.comments-wrapper{
+  height: 75%;
+}
+
+.comment-input-wrapper {
+  height: 15%;
+}
+
+.comment-form {
+  overflow-y: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid gray;
+  bottom:0;
+}
+
+.comment-input {
+  flex-grow: 2;
+  border: none;
+}
+
+.post-comment-button {
+  height: 100%;
+  background: gray;
+  color: white;
+}
+
+
+.comment-item{
+    font-size: 1.5em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: underline;
+}

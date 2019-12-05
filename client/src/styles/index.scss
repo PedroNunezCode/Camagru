@@ -1,0 +1,28 @@
+@import "./shared/header";
+@import "./shared/loginRegister";
+@import "./shared/profile";
+@import "./shared/gallery";
+@import "./shared/responsiveMediaScreen";
+
+html,
+body {
+  font-family: "Motserrat", "Helvetica";
+}
+
+.render-error-item{
+  border: 2px solid red;
+  color: red;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  width: 60%;
+  height: auto;
+  font-style: bold;
+}
+
+.render-error-item > p {
+ padding-top: 3px;
+}
+
+
+
